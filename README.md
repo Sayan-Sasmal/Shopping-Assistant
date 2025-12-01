@@ -99,6 +99,6 @@ summary:-
   15. engineering_mathematics_book
   16. nvidia_geforce_rtx_gpu
   17. ram
-   example:
-   1. " What are the available options of operating_system_book From the retailer Flipkart"
-   2. " From the list of paneer Compare and find the best one among first and the 5th option"
+  example:
+   1." What are the available options of operating_system_book From the retailer Flipkart"
+   2." From the list of paneer Compare and find the best one among first and the 5th option"
