@@ -34,11 +34,11 @@ B. Scenario 2:-
    " Show me all available Shirt Under 2000"
 2.The root_Agent receives the query and forwards it to the retailer_Agent.
 3.The Retailer_Agent searches its SQLite product database and returns a list of matching shirts to root_agent, each with attributes such as:           
-   *Name
-   *Retailer
-   *Price
-   *featres
-   *User ratings
+   * Name
+   * Retailer
+   * Price
+   * featres
+   * User ratings
 4. Now the root_agent will show that list to the user.
 5. Now the user may asks to compare First and the fifth option of products from that list.
 6. Root_agent using compare_products will compare only these two products According to the users need and find the best 1 and return it to the user
@@ -81,6 +81,24 @@ summary:-
 
 # IMPORTANT NOTE:-
   For this project Only the following list of keywords Can be used to search Products And compare them:-
-  keywords:-laptops,smartwatches,shirt,saree,atta,lehenga,rice,paneer,jeans,helmet,sugar,tea,coffee,operating_system_book,engineering_mathematics_book,nvidia_geforce_rtx_gpu,ram
-   example:1." What are the available options of operating_system_book From the retailer Flipkart"
-           2." From the list of paneer Compare and find the best one among first and the 5th option"
+  keywords:-
+  1. laptops
+  2. smartwatches
+  3. shirt
+  4. saree
+  5. atta
+  6. lehenga
+  7. rice
+  8. paneer
+  9. jeans
+  10. helmet
+  11. sugar
+  12. tea
+  13. coffee
+  14. operating_system_book
+  15. engineering_mathematics_book
+  16. nvidia_geforce_rtx_gpu
+  17. ram
+   example:
+   1. " What are the available options of operating_system_book From the retailer Flipkart"
+   2. " From the list of paneer Compare and find the best one among first and the 5th option"
